@@ -69,6 +69,10 @@ nav {
 	padding: 65px 10px;
 }
 
+.row-grey .work-item-row {
+    margin-bottom: 15px;
+}
+
 .row-white {
 	/*background-color: lightgrey;*/
 	/*-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);*/
@@ -100,7 +104,7 @@ nav {
 .btn-launch {
 	width:100%;
 	max-width:200px;
-	background-color: #549657;
+	background-color: #e91e63;
 	color:white;
 	box-shadow: 0px 2px 5px 1px darkgrey;
 }
