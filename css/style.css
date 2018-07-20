@@ -69,7 +69,7 @@ nav {
 	padding: 65px 10px;
 }
 
-.row-grey .work-item-row {
+.row-grey .work-item-row, .row-white .work-item-row {
     margin-bottom: 15px;
 }
 
