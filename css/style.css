@@ -114,3 +114,9 @@ nav {
 	color: white;
 	background: #3d7140;
 }
+
+.uc{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
