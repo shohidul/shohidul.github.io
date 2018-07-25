@@ -140,7 +140,8 @@ nav {
     border-bottom: none;
 }
 .modal-backdrop {
-   background-color: transparent;
+   background-color: white;
+   opacity: 1 !important;
 }
 .close-btn{
     background-color: gray !important;

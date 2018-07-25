@@ -9,6 +9,37 @@ var ioChat = [
                 {image: "img/projects/io_chat/My_photos.png", text: "Photo gallary"},
                 {image: "img/projects/io_chat/Settings.png", text: "App Settings"}
             ]
+var gms = [
+                {image: "img/projects/gms/Slide1.JPG", text: "Text Here...."},
+                {image: "img/projects/gms/Slide2.JPG", text: "Text Here...."},
+                {image: "img/projects/gms/Slide3.JPG", text: "Text Here...."},
+                {image: "img/projects/gms/Slide4.JPG", text: "Text Here...."},
+                {image: "img/projects/gms/Slide5.JPG", text: "Text Here...."},
+                {image: "img/projects/gms/Slide6.JPG", text: "Text Here...."},
+                {image: "img/projects/gms/Slide7.JPG", text: "Text Here...."},
+                {image: "img/projects/gms/Slide8.JPG", text: "Text Here...."},
+                {image: "img/projects/gms/Slide9.JPG", text: "Text Here...."}
+            ]
+var fml = [
+                {image: "img/projects/fml/Slide1.JPG", text: "Text Here...."},
+                {image: "img/projects/fml/Slide2.JPG", text: "Text Here...."},
+                {image: "img/projects/fml/Slide3.JPG", text: "Text Here...."},
+                {image: "img/projects/fml/Slide4.JPG", text: "Text Here...."},
+                {image: "img/projects/fml/Slide5.JPG", text: "Text Here...."},
+                {image: "img/projects/fml/Slide6.JPG", text: "Text Here...."},
+                {image: "img/projects/fml/Slide7.JPG", text: "Text Here...."},
+                {image: "img/projects/fml/Slide8.JPG", text: "Text Here...."},
+                {image: "img/projects/fml/Slide9.JPG", text: "Text Here...."}
+            ]
+var sns = [
+                {image: "img/projects/sns/Slide1.JPG", text: "Text Here...."},
+                {image: "img/projects/sns/Slide2.JPG", text: "Text Here...."},
+                {image: "img/projects/sns/Slide3.JPG", text: "Text Here...."},
+                {image: "img/projects/sns/Slide4.JPG", text: "Text Here...."},
+                {image: "img/projects/sns/Slide5.JPG", text: "Text Here...."},
+                {image: "img/projects/sns/Slide6.JPG", text: "Text Here...."},
+                {image: "img/projects/sns/Slide7.JPG", text: "Text Here...."}
+            ]
 
 
 $(".modal-body-content").height($("#detailsViewModal").height()-120);
@@ -19,6 +50,12 @@ $(".details-btn").on("click", function(){
     
     if(appTitle == "IO Chat"){
         contentArray = ioChat; 
+    }else if(appTitle == "Gym Management System"){
+        contentArray = gms; 
+    }else if(appTitle == "FX Movie Library"){
+        contentArray = fml; 
+    }else if(appTitle == "Social Networking Site"){
+        contentArray = sns; 
     }else{
         contentArray = []; 
     }
