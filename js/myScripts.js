@@ -1,13 +1,13 @@
 var contentArray = [];
 var ioChat = [
-                {image: "img/projects/io_chat/chat.png", text: "Chat Screen"},
-                {image: "img/projects/io_chat/About_me_pd.png", text: "About me"},
-                {image: "img/projects/io_chat/Contacts.png", text: "Contacts"},
-                {image: "img/projects/io_chat/Voice_Call.png", text: "Voice Call when chatting with others"},
-                {image: "img/projects/io_chat/Video_call.png", text: "Video Call when chatting with others"},
-                {image: "img/projects/io_chat/Room_Video_Call_full_screen.png", text: "Group video call"},
-                {image: "img/projects/io_chat/My_photos.png", text: "Photo gallary"},
-                {image: "img/projects/io_chat/Settings.png", text: "App Settings"}
+                {image: "img/projects/io_chat/chat.png", text: "Chatting with a specific user."},
+                {image: "img/projects/io_chat/About_me_pd.png", text: "About me is the current user information view and update screen."},
+                {image: "img/projects/io_chat/Contacts.png", text: "Shows Contacts of the current account."},
+                {image: "img/projects/io_chat/Voice_Call.png", text: "Voice Call when chatting with others."},
+                {image: "img/projects/io_chat/Video_Call.png", text: "Video Call when chatting with others."},
+                {image: "img/projects/io_chat/Room_Video_Call_full_screen.png", text: "Group video call in full-screen mode."},
+                {image: "img/projects/io_chat/My_photos.png", text: "A gallery of photos that a user has been shared."},
+                {image: "img/projects/io_chat/Settings.png", text: "App settings screen. More settings need to add."}
             ]
 var gms = [
                 {image: "img/projects/gms/Slide1.JPG", text: "Text Here...."},
@@ -21,15 +21,18 @@ var gms = [
                 {image: "img/projects/gms/Slide9.JPG", text: "Text Here...."}
             ]
 var fml = [
-                {image: "img/projects/fml/Slide1.JPG", text: "Text Here...."},
-                {image: "img/projects/fml/Slide2.JPG", text: "Text Here...."},
-                {image: "img/projects/fml/Slide3.JPG", text: "Text Here...."},
-                {image: "img/projects/fml/Slide4.JPG", text: "Text Here...."},
-                {image: "img/projects/fml/Slide5.JPG", text: "Text Here...."},
-                {image: "img/projects/fml/Slide6.JPG", text: "Text Here...."},
-                {image: "img/projects/fml/Slide7.JPG", text: "Text Here...."},
-                {image: "img/projects/fml/Slide8.JPG", text: "Text Here...."},
-                {image: "img/projects/fml/Slide9.JPG", text: "Text Here...."}
+                {image: "img/projects/fml/1.JPG", text: "Software info screen. It explains why it has been created."},
+                {image: "img/projects/fml/2.JPG", text: "Home screen. All movies are displayed here."},
+                {image: "img/projects/fml/3.png", text: "Movies can be filtered by genre."},
+                {image: "img/projects/fml/4.png", text: "These are from the drama category."},
+                {image: "img/projects/fml/5.JPG", text: "A selected movie will look like this."},
+                {image: "img/projects/fml/6.JPG", text: "The \"Watch Trailer\" button will redirect to YouTube trailer in its screen."},
+                {image: "img/projects/fml/7.JPG", text: "Another selected movie."},
+                {image: "img/projects/fml/8.JPG", text: "And YouTube player for trailer view."},
+                {image: "img/projects/fml/9.JPG", text: "And another selected movie."},
+                {image: "img/projects/fml/10.png", text: "Now it is playing offline from the PC. It has its own movie player."},
+                {image: "img/projects/fml/11.JPG", text: "This is the screen where we can register our favorite movies in the database."},
+                {image: "img/projects/fml/12.JPG", text: "It is a table of movies, a different view to search movie and delete it."}
             ]
 var sns = [
                 {image: "img/projects/sns/Slide1.JPG", text: "Text Here...."},
@@ -39,6 +42,22 @@ var sns = [
                 {image: "img/projects/sns/Slide5.JPG", text: "Text Here...."},
                 {image: "img/projects/sns/Slide6.JPG", text: "Text Here...."},
                 {image: "img/projects/sns/Slide7.JPG", text: "Text Here...."}
+            ]
+var hms = [
+                {image: "img/projects/hms/1.JPG", text: "Log in screen."},
+                {image: "img/projects/hms/2.JPG", text: "Home sceen."},
+                {image: "img/projects/hms/3.JPG", text: "Screen for registration, customer information."},
+                {image: "img/projects/hms/4.0.JPG", text: "Booking information registration."},
+                {image: "img/projects/hms/4.1.JPG", text: "Room list to check availability."},
+                {image: "img/projects/hms/4.2.JPG", text: "Booking status screen."},
+                {image: "img/projects/hms/5.JPG", text: "Hotel service screen."},
+                {image: "img/projects/hms/6.JPG", text: "Billing form."},
+                {image: "img/projects/hms/7.JPG", text: "Print preview of a sample bill."},
+                {image: "img/projects/hms/8.JPG", text: "Customer Check In & Out happens here."},
+                {image: "img/projects/hms/9.JPG", text: "Billing status update screen."},
+                {image: "img/projects/hms/10.JPG", text: "Billing status table for old bills and new ones."},
+                {image: "img/projects/hms/11.JPG", text: "Customer Enquiry form."},
+                {image: "img/projects/hms/12.JPG", text: "Registration form."},
             ]
 
 
@@ -56,6 +75,8 @@ $(".details-btn").on("click", function(){
         contentArray = fml; 
     }else if(appTitle == "Social Networking Site"){
         contentArray = sns; 
+    }else if(appTitle == "Hotel Managment System"){
+        contentArray = hms; 
     }else{
         contentArray = []; 
     }
