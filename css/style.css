@@ -154,6 +154,10 @@ nav {
 #app-title {
     margin-top: -30px;
     margin-bottom: 30px;
+    color: #337ab7 !important;
+}
+.app-title {
+    color: #337ab7 !important;
 }
 .uc{
     display: block;
