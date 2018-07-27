@@ -10,15 +10,19 @@ var ioChat = [
                 {image: "img/projects/io_chat/Settings.png", text: "App settings screen. More settings need to add."}
             ]
 var gms = [
-                {image: "img/projects/gms/Slide1.JPG", text: "Text Here...."},
-                {image: "img/projects/gms/Slide2.JPG", text: "Text Here...."},
-                {image: "img/projects/gms/Slide3.JPG", text: "Text Here...."},
-                {image: "img/projects/gms/Slide4.JPG", text: "Text Here...."},
-                {image: "img/projects/gms/Slide5.JPG", text: "Text Here...."},
-                {image: "img/projects/gms/Slide6.JPG", text: "Text Here...."},
-                {image: "img/projects/gms/Slide7.JPG", text: "Text Here...."},
-                {image: "img/projects/gms/Slide8.JPG", text: "Text Here...."},
-                {image: "img/projects/gms/Slide9.JPG", text: "Text Here...."}
+                {image: "img/projects/gms/1.JPG", text: "Log In screen."},
+                {image: "img/projects/gms/2.png", text: "Home screen with Gym Members attendance list."},
+                {image: "img/projects/gms/3.JPG", text: "Member's profile creation form"},
+                {image: "img/projects/gms/4.png", text: "Here Trainers can create  meal plans from their user accounts."},
+                {image: "img/projects/gms/5.JPG", text: "Trainers can create exercise routines also."},
+                {image: "img/projects/gms/6.JPG", text: "If Gym has any product to sell they can register the product here."},
+                {image: "img/projects/gms/7.JPG", text: "Product table view."},
+                {image: "img/projects/gms/8.JPG", text: "Instruments registration form."},
+                {image: "img/projects/gms/9.JPG", text: "Revenue and expenses register in Accounts section."},
+                {image: "img/projects/gms/10.JPG", text: "It is the revenue form and its table view."},
+                {image: "img/projects/gms/11.JPG", text: "Software settings screen."},
+                {image: "img/projects/gms/12.JPG", text: "Company information can be changed from here. Color theme is also changeable."},
+                {image: "img/projects/gms/13.JPG", text: "Color theme has been changed."}
             ]
 var fml = [
                 {image: "img/projects/fml/1.JPG", text: "Software info screen. It explains why it has been created."},
@@ -35,13 +39,16 @@ var fml = [
                 {image: "img/projects/fml/12.JPG", text: "It is a table of movies, a different view to search movie and delete it."}
             ]
 var sns = [
-                {image: "img/projects/sns/Slide1.JPG", text: "Text Here...."},
-                {image: "img/projects/sns/Slide2.JPG", text: "Text Here...."},
-                {image: "img/projects/sns/Slide3.JPG", text: "Text Here...."},
-                {image: "img/projects/sns/Slide4.JPG", text: "Text Here...."},
-                {image: "img/projects/sns/Slide5.JPG", text: "Text Here...."},
-                {image: "img/projects/sns/Slide6.JPG", text: "Text Here...."},
-                {image: "img/projects/sns/Slide7.JPG", text: "Text Here...."}
+                {image: "img/projects/sns/1.JPG", text: "Log In window to EveryDay."},
+                {image: "img/projects/sns/2.JPG", text: "Current user's home page."},
+                {image: "img/projects/sns/3.png", text: "Here are two friend requests in pending."},
+                {image: "img/projects/sns/4.JPG", text: "Current user's profile page."},
+                {image: "img/projects/sns/5.JPG", text: "Current user's profile page."},
+                {image: "img/projects/sns/6.JPG", text: "Friends are shown in this window."},
+                {image: "img/projects/sns/7.JPG", text: "People user may know, can send friend requests."},
+                {image: "img/projects/sns/8.JPG", text: "User account settings."},
+                {image: "img/projects/sns/9.JPG", text: "A friend's profile page."},
+                {image: "img/projects/sns/10.JPG", text: "Another friend's profile page."}
             ]
 var hms = [
                 {image: "img/projects/hms/1.JPG", text: "Log in screen."},
