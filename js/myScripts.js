@@ -67,15 +67,15 @@ var hms = [
                 {image: "img/projects/hms/12.JPG", text: "Registration form."}
             ]
 var puzzle = [
-                {image: "img/projects/puzzle/1.png", text: "Default screen."},
-                {image: "img/projects/puzzle/2.png", text: "Counts moves & playing time."},
-                {image: "img/projects/puzzle/3.png", text: "Only wolf has a secret!"},
-                {image: "img/projects/puzzle/4.png", text: "When hovering on 'Show Hint' button, It shakes & blackout the screen with sound."},
-                {image: "img/projects/puzzle/5.png", text: "Upload your won picture."},
-                {image: "img/projects/puzzle/6.png", text: "A Lion."},
-                {image: "img/projects/puzzle/7.png", text: "A Tiger"},
-                {image: "img/projects/puzzle/8.png", text: "A cute Cat."},
-                {image: "img/projects/puzzle/9.png", text: "Cute puppies."}
+                {image: "img/projects/puzzle/1.PNG", text: "Default screen."},
+                {image: "img/projects/puzzle/2.PNG", text: "Counts moves & playing time."},
+                {image: "img/projects/puzzle/3.PNG", text: "Only wolf has a secret!"},
+                {image: "img/projects/puzzle/4.PNG", text: "When hovering on 'Show Hint' button, It shakes & blackout the screen with sound."},
+                {image: "img/projects/puzzle/5.PNG", text: "Upload your won picture."},
+                {image: "img/projects/puzzle/6.PNG", text: "A Lion."},
+                {image: "img/projects/puzzle/7.PNG", text: "A Tiger"},
+                {image: "img/projects/puzzle/8.PNG", text: "A cute Cat."},
+                {image: "img/projects/puzzle/9.PNG", text: "Cute puppies."}
 
             ]
 
