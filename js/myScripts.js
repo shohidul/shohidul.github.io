@@ -78,6 +78,23 @@ var puzzle = [
                 {image: "img/projects/puzzle/9.PNG", text: "Cute puppies."}
 
             ]
+var zabpos = [
+                {image: "img/projects/zabpos/Picture1.png", text: ""},
+                {image: "img/projects/zabpos/Picture2.png", text: ""},
+                {image: "img/projects/zabpos/Picture3.png", text: ""},
+                {image: "img/projects/zabpos/Picture4.png", text: ""},
+                {image: "img/projects/zabpos/Picture5.png", text: ""},
+                {image: "img/projects/zabpos/Picture6.png", text: ""},
+                {image: "img/projects/zabpos/Picture7.png", text: ""},
+                {image: "img/projects/zabpos/Picture8.png", text: ""},
+                {image: "img/projects/zabpos/Picture9.png", text: ""},
+                {image: "img/projects/zabpos/Picture10.png", text: ""},
+                {image: "img/projects/zabpos/Picture11.png", text: ""},
+                {image: "img/projects/zabpos/Picture12.png", text: ""},
+                {image: "img/projects/zabpos/Picture13.png", text: ""},
+                {image: "img/projects/zabpos/Picture14.png", text: ""}
+
+            ]
 
 
 $(".modal-body-content").height($("#detailsViewModal").height()-120);
@@ -102,6 +119,8 @@ $(".details-btn").on("click", function(){
         contentArray = hms; 
     }else if(appTitle == "Sliding Puzzle"){
         contentArray = puzzle; 
+    }else if(appTitle == "ZAB POS"){
+        contentArray = zabpos; 
     }else{
         contentArray = []; 
     }
