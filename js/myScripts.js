@@ -95,6 +95,18 @@ var zabpos = [
                 {image: "img/projects/zabpos/Picture14.png", text: ""}
 
             ]
+var th = [
+                {image: "img/projects/th/1.png", text: "Home page for the Talent Hut with a Job Search Engine."},
+                {image: "img/projects/th/2.png", text: "Search results and filter jobs view."},
+                {image: "img/projects/th/3.png", text: "Job details."},
+                {image: "img/projects/th/4.png", text: "Log in screen for the employee."},
+                {image: "img/projects/th/5.png", text: "Employee Dashboard."},
+                {image: "img/projects/th/6.png", text: "Job applicants view."},
+                {image: "img/projects/th/7.png", text: "Applicant registration."},
+                {image: "img/projects/th/8.png", text: "Applicant Log in."},
+                {image: "img/projects/th/9.png", text: "Applicant dashboard."},
+
+            ]
 
 
 $(".modal-body-content").height($("#detailsViewModal").height()-120);
@@ -121,6 +133,8 @@ $(".details-btn").on("click", function(){
         contentArray = puzzle; 
     }else if(appTitle == "ZAB POS"){
         contentArray = zabpos; 
+    }else if(appTitle == "Talent Hut"){
+        contentArray = th; 
     }else{
         contentArray = []; 
     }
