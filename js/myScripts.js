@@ -85,7 +85,6 @@ var zabpos = [
                 {image: "img/projects/zabpos/Picture4.png", text: ""},
                 {image: "img/projects/zabpos/Picture5.png", text: ""},
                 {image: "img/projects/zabpos/Picture6.png", text: ""},
-                {image: "img/projects/zabpos/Picture7.png", text: ""},
                 {image: "img/projects/zabpos/Picture9.png", text: ""},
                 {image: "img/projects/zabpos/Picture14.png", text: ""}
 
