@@ -107,6 +107,15 @@ var th = [
                 {image: "img/projects/th/9.png", text: "Applicant dashboard."},
 
             ]
+var ctebslt = [
+                {image: "img/projects/ctebslt/LogIn.png", text: ""},
+                {image: "img/projects/ctebslt/LogIn_Private.png", text: ""},
+                {image: "img/projects/ctebslt/Side_Panel.png", text: ""},
+                {image: "img/projects/ctebslt/Suite.png", text: ""},
+                {image: "img/projects/ctebslt/User_Dashboard.png", text: ""},
+                {image: "img/projects/ctebslt/User_Dashboard_old.png", text: ""}
+
+            ]
 
 
 $(".modal-body-content").height($("#detailsViewModal").height()-120);
@@ -135,6 +144,8 @@ $(".details-btn").on("click", function(){
         contentArray = zabpos; 
     }else if(appTitle == "Talent Hut"){
         contentArray = th; 
+    }else if(appTitle == "Ctrends EBS Lite"){
+        contentArray = ctebslt; 
     }else{
         contentArray = []; 
     }
