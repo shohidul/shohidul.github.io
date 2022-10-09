@@ -1,4 +1,17 @@
 var contentArray = [];
+var bbq = [
+                {image: "img/projects/bbq/home.png", text: "Home Page"},
+                {image: "img/projects/bbq/outlets.png", text: "All outlets or Tenants"},
+                {image: "img/projects/bbq/outlet_view1.png", text: "Outlet View."},
+                {image: "img/projects/bbq/menu1.png", text: "Food Menu Combo"},
+                {image: "img/projects/bbq/menu2.png", text: "Food Menu Drinks"},
+                {image: "img/projects/bbq/checkout.png", text: "Checkout Page"},
+                {image: "img/projects/bbq/orders.png", text: "All Orders"},
+                {image: "img/projects/bbq/outlet_edit.png", text: "Outlet Edit"},
+                {image: "img/projects/bbq/category_edit.png", text: "Category Edit"},
+                {image: "img/projects/bbq/login.png", text: "User or Outlet Signup & Login"},
+                {image: "img/projects/bbq/bottom.png", text: "Page Footer"}
+            ]
 var ioChat = [
                 {image: "img/projects/io_chat/chat.png", text: "Chatting with a specific user."},
                 {image: "img/projects/io_chat/About_me_pd.png", text: "About me is the current user information view and update screen."},
@@ -122,7 +135,9 @@ $(".details-btn").on("click", function(){
     var appTitle = $(this).closest(".parent-div").find(".app-title").text();   
     $("#detailsViewModal").find("#app-title").text(appTitle);
     
-    if(appTitle == "IO Chat"){
+    if(appTitle == "BBQ"){
+        contentArray = bbq; 
+    }else if(appTitle == "IO Chat"){
         contentArray = ioChat; 
     }else if(appTitle == "Gym Management System"){
         contentArray = gms; 
