@@ -1,4 +1,3 @@
-$("#contents").load("/pages/about.html");
 loadPage("about");
 
 $("#about").click(function() {
@@ -17,10 +16,22 @@ $("#contact").click(function() {
     loadPage("contact");
 });
 
-function loadPage(page){
-    $("#contents").load("/pages/"+page+".html");
-    $(".nav li").each(function( index ) {
-        $( this ).removeClass("active");
+function loadPage(page) {
+    $("#contents").fadeOut(0).load("/pages/" + page + ".html").fadeIn("slow");
+    $(".nav li").each(function (index) {
+        $(this).removeClass("active");
     });
-    $("#"+page).addClass("active");
+    $("#" + page).addClass("active");
+    setTimeout(
+        function () {
+            parseMarkdown();
+        }, 150);
+}
+
+function parseMarkdown() {
+    var target = $("body").find(".marked");
+    target.each(function (index) {
+        var html = marked.parse($(this).text())
+        $(this).html(html);
+    });
 }
