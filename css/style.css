@@ -10,7 +10,7 @@ body {
 	margin: 0;
 	background-repeat: no-repeat;
 	background-attachment: fixed;*/
-	margin-top:100px;
+	/* margin-top:100px; */
 }
 
 h1, h2, h3, h4, h5{
@@ -50,8 +50,20 @@ nav {
 	display: flex;
 }
 
+.navbar-nav .active > a{
+	color: #333 !important;
+	background-color: transparent !important;
+	font-weight: bold !important;
+}
+
+.navbar-brand{
+	background: #e91e63;
+	color: white;
+	border-radius: 0px 25px;
+}
+
 .navbar-default {
-	background-color: #93ca44;
+	/* background-color: #93ca44; */
 	border: none;
 	border-radius:0;
 }

@@ -51,424 +51,62 @@
 	</head>
     <body>
         <div class="container-fluid">
+            <nav class="navbar navbar-autocollapse navbar-static-top navbar-default">
+                <div class="container-fluid">
+                    <!-- <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">
+                      Portfolio
+                    </a>
+                  </div> -->
+                    <div id="navbar1" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li id="about" class="active"><a href="#">About</a></li>
 
-            <div class="text-center">
-                <!--<img src="img/underconstruction.jpg"  class="uc">-->
-                <img src="img/me2020.jpg" width=200 class="profile-pic">
-                <h1>Shohidul Islam</h1>
-                <h3>Software Developer</h3>
-                <h5>UX/UI/Web/Desktop/Mobile</h5>
+                            <li id="portfolio"><a href="#">Portfolio</a></li>
+                            <li id="blog"><a href="#">Blog</a></li>
+                            <li id="contact"><a href="#">Contact</a></li>
 
-                <div class="text-center" style="margin:20px; height:50px">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-expanded="false">More <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header">Nav header</li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
 
+                        <!-- <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <p class="navbar-btn"><a class="btn btn-xl btn-warning">Bootstrap</a></p>
+                            </li>
+                        </ul> -->
+
+                    </div>
+                    <!--/.nav-collapse -->
                 </div>
-            </div>
-            <div class="row row-grey parent-div">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <div class="row work-item-row">
-                        <div class="col-lg-8">
-                            <img style="box-shadow: 2px 2px 5px rgba(0,0,0,0.2);" src="img/projects/bbq/home.png" class="img-responsive center-block">
-                        </div>
-                        <div class="col-lg-4">
-                            <h2 class="app-title">BBQ</h2>
-                            <p>This is a project we have developed for the course requirements of PGD-IT in Jahangirnagar University.</p>
-                            <h4>Technology</h4>
-                            <p>This project is built using Java in the back-end with Spring Boot Security and JWT Authentication. HTML5, CSS3, Bootstrap 4.6 and JQuery has been used in the front-end.</p>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-xs-12">
-                            <img src="img/techlogos/htmlcssjs.png" class="techlogo" width="100">
-                            <img src="img/techlogos/jquery.png" class="techlogo" width="100">
-                            <img src="img/techlogos/bootstrap.png" class="techlogo" width="100">
-                            <img src="img/techlogos/java.png" class="techlogo" width="100">
-                            <img src="img/techlogos/spring_boot.png" class="techlogo" width="100">
-                            <img src="img/techlogos/jwt.png" class="techlogo" width="100">
-                            <img src="img/techlogos/restapi.png" class="techlogo" width="100">
-                        </div>
-                    </div>
-                    <div class="row text-center" style="margin:20px;">
-                        <a class="btn btn-launch" href="https://genericfos.herokuapp.com/" target="blank">Launch</a>
-                        <button class="btn btn-launch details-btn" data-toggle="modal" data-target="#detailsViewModal">Details View</button>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-white parent-div">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <div class="row work-item-row">
-                        <div class="col-lg-8 col-lg-push-4">
-                            <img style="box-shadow: 2px 2px 5px rgba(0,0,0,0.2);" src="img/projects/io_chat/chat.png" class="img-responsive center-block">
-                        </div>
-                        <div class="col-lg-4 col-lg-pull-8">
-                            <h2 class="app-title">IO Chat</h2>
-                            <p>Currently working on this project. We are three friends, creating a chat application with Firebase. Most of the User Experience Design was done by me. It will be a cross-platform application for communication.</p>
-                            <h4>Technology</h4>
-                            <p>IO Chat is built using Firebase Firestore, node JS, and runs on GitHub Pages. Bootstrap4 is the CSS framework of choice for this project. We have chosen Electron JS for the desktop app and Java for Android app.</p>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-xs-12">
-                            <img src="img/techlogos/htmlcssjs.png" class="techlogo" width="100">
-                            <img src="img/techlogos/jquery.png" class="techlogo" width="100">
-                            <img src="img/techlogos/bootstrap.png" class="techlogo" width="100">
-                            <img src="img/techlogos/node.png" class="techlogo" width="100">
-                            <img src="img/techlogos/firebase.png" class="techlogo" width="100">
+                <!--/.container-fluid -->
+            </nav>
+            <br><br>
 
-                            <img src="img/techlogos/electronjs.svg" class="techlogo" width="120">
-                        </div>
-                    </div>
-                    <div class="row text-center" style="margin:20px;">
-                        <a class="btn btn-launch" href="https://iochat-29c46.web.app/" target="blank">Launch</a>
-                        <button class="btn btn-launch details-btn" data-toggle="modal" data-target="#detailsViewModal">Details View</button>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-grey parent-div">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <div class="row work-item-row">
-                        <div class="col-lg-8">
-                           <div class="ytv">
-                               <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="100%" height="100%" type="text/html" src="https://www.youtube.com/embed/GfkxtT-U6n8?&autoplay=1&mute=1&controls=0&loop=1&rel=0&showinfo=0&color=white&iv_load_policy=3&playlist=GfkxtT-U6n8"></iframe>
-                           </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <h2 class="app-title">Syngenta Grower App</h2>
-                            <p>Mobile App UI Design for Syngenta Grower App. It was a prototype for Syngenta Bangladesh. A leading agriculture company helping to improve global food security by enabling millions of farmers to make better use of available resources. They are going to launch an app to collect farmers/growers data to know about how they are using Syngenta's products.</p>
-                            <h4>Technology</h4>
-                            <p>This UI was designed with Adobe XD.</p>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-xs-12">
-                            <img src="img/tool-logos/adobe-xd.png" class="techlogo" width="60">
-                        </div>
-                    </div>
-                    <div class="row text-center" style="margin:20px;">
-                        <a class="btn btn-launch" href="https://www.syngenta.com/" target="blank">Visit Syngenta</a>
-<!--                        <button class="btn btn-launch details-btn" data-toggle="modal" data-target="#detailsViewModal">Details View</button>-->
-                    </div>
-                </div>
-            </div>
-            <div class="row row-white parent-div">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <div class="row work-item-row">
-                        <div class="col-lg-8 col-lg-push-4">
-                            <img style="box-shadow: 2px 2px 5px rgba(0,0,0,0.2);" src="img/projects/zabpos/Picture2.png" class="img-responsive center-block">
-                        </div>
-                        <div class="col-lg-4 col-lg-pull-8">
-                            <h2 class="app-title">ZAB POS</h2>
-                            <p>ZAB POS is a Food Court or Restaurant POS system, a product of ZAB ERP Ltd. I am currently working on it with one of my colleague. ZAB POS is built for managing Restaurants and Food Courts. ZAB POS is currently running on Chef's Table and some other businesses.</p>
-                            <h4>Technology</h4>
-                            <p>This software was built using Java , Spring Boot, JPA, Maven, Java FX and MS SQL DB.</p>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-xs-12">
-                            <img src="img/techlogos/spring_boot.png" class="techlogo" width="100">
-                            <img src="img/techlogos/javafx.png" class="techlogo" width="100">
-                            <img src="img/techlogos/hibernate.png" class="techlogo" width="100">
-                            <img src="img/techlogos/maven.png" class="techlogo" width="100">
-                            <img src="img/techlogos/sql-server-logo.png" class="techlogo" width="100">
-                        </div>
-                    </div>
-                    <div class="row text-center" style="margin:20px;">
-                        <a class="btn btn-launch" href="http://203.83.171.59/zaberp/zab-resttaurant-pos/" target="blank">Visit ZAB</a>
-                        <button class="btn btn-launch details-btn" data-toggle="modal" data-target="#detailsViewModal">Details View</button>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-grey parent-div">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <div class="row work-item-row">
-                        <div class="col-lg-8">
-                            <img style="box-shadow: 2px 2px 5px rgba(0,0,0,0.2);" src="img/projects/zabcas/zabcas.PNG" class="img-responsive center-block">
-                        </div>
-                        <div class="col-lg-4">
-                            <h2 class="app-title">ZAB CAS Data Synchronizer</h2>
-                            <p>ZAB CAS is a data synchronizer application. It has created for the CAS Scale Bangladesh. It solves large data entry problems of retail perishable products. It fetches thousands of products from server and sync with the multiple weight scale connected to the network in a minute.
-                            It's been running in Unimart and Prince Bazaar.</p>
-                            <h4>Technology</h4>
-                            <p>This software was built using Netty Client, Socket Programming in Java, Java FX, JDBC and MS SQL DB.</p>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-xs-12">
-                            <img src="img/techlogos/javafx.png" class="techlogo" width="100">
-                            <img src="img/techlogos/sql-server-logo.png" class="techlogo" width="100">
-                        </div>
-                    </div>
-                    <div class="row text-center" style="margin:20px;">
-                        <a class="btn btn-launch" href="http://zaberp.com/" target="blank">Visit ZAB</a>                        
-                        <a class="btn btn-launch" href="http://www.casscalebd.com" target="blank">Visit CAS Scale</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row row-white parent-div">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <div class="row work-item-row">
-                        <div class="col-lg-8 col-lg-push-4">
-                            <img style="box-shadow: 2px 2px 5px rgba(0,0,0,0.2);" src="img/projects/puzzle/1.PNG" class="img-responsive center-block">
-                        </div>
-                        <div class="col-lg-4 col-lg-pull-8">
-                            <h2 class="app-title">Sliding Puzzle</h2>
-                            <p>This is the first game I have coded. It was like challenging myself, "Can I create a game tonight?".</p>
-                            <h4>Technology</h4>
-                            <p>This game was built using JavaScript, JQuery, HTML5 and CSS3. It is hosted in Github pages with a free domain 'puzzle.tk' from freenom.com.</p>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-xs-12">
-                            <img src="img/techlogos/htmlcssjs.png" class="techlogo" width="100">
-                            <img src="img/techlogos/jquery.png" class="techlogo" width="100">
-                        </div>
-                    </div>
-                    <div class="row text-center" style="margin:20px;">
-                        <a class="btn btn-launch" href="https://shohidul.github.io/puzzle/" target="blank">Play Now</a>
-                        <button class="btn btn-launch details-btn" data-toggle="modal" data-target="#detailsViewModal">Details View</button>
-                    </div>
-                </div>
-            </div>             
-            <div class="row row-grey parent-div">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <div class="row work-item-row">
-                        <div class="col-lg-8">
-                           <div class="ytv">
-                               <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="100%" height="100%" type="text/html" src="https://www.youtube.com/embed/NcwGZpsTTRc?&autoplay=1&mute=1&controls=0&loop=1&rel=0&showinfo=0&color=white&iv_load_policy=3&playlist=NcwGZpsTTRc"></iframe>
-                           </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <h2 class="app-title">Ctrends EBS Lite</h2>
-                            <p>Mobile App UI Design for Ctrends EBS Lite. A product of Ctrends Software & Services Ltd.</p>
-                            <h4>Technology</h4>
-                            <p>This UI was designed with Figma and prototyped in Invision.</p>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-xs-12">
-                            <img src="img/tool-logos/figma.png" class="techlogo" width="100">
-                            <img src="img/tool-logos/invision.png" class="techlogo" width="100">
-                        </div>
-                    </div>
-                    <div class="row text-center" style="margin:20px;">
-                        <a class="btn btn-launch" href="http://www.ctrends-software.com/" target="blank">Visit Ctrends</a>
-                        <button class="btn btn-launch details-btn" data-toggle="modal" data-target="#detailsViewModal">Details View</button>
-                    </div>
-                </div>
-            </div>            
-            <div class="row row-white parent-div">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <div class="row work-item-row">
-                        <div class="col-lg-8 col-lg-push-4">
-                            <img style="box-shadow: 2px 2px 5px rgba(0,0,0,0.2);" src="img/projects/th/1.png" class="img-responsive center-block">
-                        </div>
-                        <div class="col-lg-4 col-lg-pull-8">
-                            <h2 class="app-title">Talent Hut</h2>
-                            <p>Talent Hut has not published yet. It was created for the company Ctrends Software & Services Ltd. when I was employed there as a UX Designer.</p>
-                            <h4>Technology</h4>
-                            <p>This project was built using JavaScript, JQuery, HTML5, CSS3 and Echarts.</p>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-xs-12">
-                            <img src="img/techlogos/htmlcssjs.png" class="techlogo" width="100">
-                            <img src="img/techlogos/jquery.png" class="techlogo" width="100">
-                            <img src="img/techlogos/echarts.png" class="techlogo" width="100">
-                        </div>
-                    </div>
-                    <div class="row text-center" style="margin:20px;">
-<!--                        <a class="btn btn-launch" href="http://puzzle.tk/" target="blank">Play Now</a>-->
-                        <button class="btn btn-launch details-btn" data-toggle="modal" data-target="#detailsViewModal">Details View</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row row-grey parent-div">
-                <div class="col-sm-8 col-sm-offset-2">
-
-                    <div class="row work-item-row">
-                        <div class="col-lg-8">
-                            <img style="box-shadow: 2px 2px 5px rgba(0,0,0,0.2);" src="img/projects/sns/2.JPG" class="img-responsive center-block">
-                        </div>
-                        <div class="col-lg-4">
-                            <h2 class="app-title">Social Networking Site</h2>
-                            <p>A social networking web app was built as a final project in our J2EE course. Our group of five programmers built it. I was the designer, database designer and a programmer from the group. Post, Comment, Like, Friend Request, Accept & Reject was done.</p>
-                            <h4>Technology</h4>
-                            <p>This site was built on a premium theme. JSP, Spring Boot, Hibernate, Maven, MySQL Database was used for this application.</p>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-xs-12">
-                            <img src="img/techlogos/jsp.png" class="techlogo" width="100">
-                            <img src="img/techlogos/mysql.png" class="techlogo" width="100">
-                            <img src="img/techlogos/spring_boot.png" class="techlogo" width="100">
-                            <img src="img/techlogos/hibernate.png" class="techlogo" width="100">
-                            <img src="img/techlogos/maven.png" class="techlogo" width="100">
-                            <img src="img/techlogos/heroku.png" class="techlogo" width="100">
-                        </div>
-                    </div>
-                    <div class="row text-center" style="margin:20px;">
-                        <a class="btn btn-launch" href="https://github.com/shohidul/SocialNetworking" target="blank">View on GitHub</a>
-                        <button class="btn btn-launch details-btn" data-toggle="modal" data-target="#detailsViewModal">Details View</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row row-white parent-div">
-                <div class="col-sm-8 col-sm-offset-2">
-
-                    <div class="row work-item-row">
-                        <div class="col-lg-8 col-lg-push-4">
-                            <img style="box-shadow: 2px 2px 5px rgba(0,0,0,0.2);" src="img/projects/fml/2.JPG" class="img-responsive center-block">
-                        </div>
-                        <div class="col-lg-4 col-lg-pull-8">
-                            <h2 class="app-title">FX Movie Library</h2>
-                            <p>FX Movie Library was created as a monthly class project. It can store movies from computer local storage and play in its own player. Show trailers from YouTube. This design was inspired from Popcorn Time application.</p>
-                            <h4>Technology</h4>
-                            <p>FX Movie Library was build using Java, JavaFX, Spring and Hibernate with MySql database.</p>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-xs-12">
-                            <img src="img/techlogos/java.png" class="techlogo" width="100">
-                            <img src="img/techlogos/javafx.png" class="techlogo" width="100">
-                            <img src="img/techlogos/mysql.png" class="techlogo" width="100">
-                            <img src="img/techlogos/spring.png" class="techlogo" width="100">
-                            <img src="img/techlogos/hibernate.png" class="techlogo" width="100">
-                        </div>
-                    </div>
-                    <div class="row text-center" style="margin:20px;">
-                        <a class="btn btn-launch" href="https://github.com/shohidul/MovieLibrary" target="blank">View on GitHub</a>
-                        <button class="btn btn-launch details-btn" data-toggle="modal" data-target="#detailsViewModal">Details View</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row row-grey parent-div">
-                <div class="col-sm-8 col-sm-offset-2">
-
-                    <div class="row work-item-row">
-                        <div class="col-lg-8">
-                            <img style="box-shadow: 2px 2px 5px rgba(0,0,0,0.2);" src="img/projects/gms/2.png" class="img-responsive center-block">
-                        </div>
-                        <div class="col-lg-4">
-                            <h2 class="app-title">Gym Management System</h2>
-                            <p>An application was created for a client's Gym Management. I was one of three programmers.</p>
-                            <h4>Technology</h4>
-                            <p>Gym Management System was built using Java, JavaFx, Spring and JDBC with MySql.</p>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-xs-12">
-                            <img src="img/techlogos/java.png" class="techlogo" width="100">
-                            <img src="img/techlogos/javafx.png" class="techlogo" width="100">
-                            <img src="img/techlogos/mysql.png" class="techlogo" width="100">
-                            <img src="img/techlogos/spring.png" class="techlogo" width="100">
-                            <img src="img/techlogos/java-jdbc.png" class="techlogo" width="100">
-                        </div>
-                    </div>
-                    <div class="row text-center" style="margin:20px;">
-                        <a class="btn btn-launch" href="https://github.com/shohidul/GymMgtSystem" target="blank">View on GitHub</a>
-                        <button class="btn btn-launch details-btn" data-toggle="modal" data-target="#detailsViewModal">Details View</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row row-white parent-div">
-                <div class="col-sm-8 col-sm-offset-2">
-
-                    <div class="row work-item-row">
-                        <div class="col-lg-8 col-lg-push-4">
-                            <img style="box-shadow: 2px 2px 5px rgba(0,0,0,0.2);" src="img/projects/hms/2.JPG" class="img-responsive center-block">
-                        </div>
-                        <div class="col-lg-4 col-lg-pull-8">
-                            <h2 class="app-title">Hotel Managment System</h2>
-                            <p>It was my second project named Hotel Java. It was an individual project. Customer Information, Booking, Service, Billing, check In & Out and Customer Enquiry are the options in this software.</p>
-                            <h4>Technology</h4>
-                            <p>Hotel Java was designed with Java Swing, MySQL database and JDBC.</p>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-xs-12">
-                            <img src="img/techlogos/java.png" class="techlogo" width="100">
-                            <img src="img/techlogos/java-jdbc.png" class="techlogo" width="100">
-                            <img src="img/techlogos/mysql.png" class="techlogo" width="100">
-                        </div>
-                    </div>
-                    <div class="row text-center" style="margin:20px;">
-                        <a class="btn btn-launch" href="https://github.com/shohidul/HotelMgtSystem" target="blank">View on GitHub</a>
-                        <button class="btn btn-launch details-btn" data-toggle="modal" data-target="#detailsViewModal">Details View</button>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="row row-tools row-white parent-div">
-                <div class="col-sm-12 text-center">
-
-                    <h3>Tools I Use</h3>
-                    <img src="img/tool-logos/figma.png" class="techlogo" width="150">
-                    <img src="img/tool-logos/invision.png" class="techlogo" width="150">
-                    <img src="img/tool-logos/git.png" class="techlogo" width="150">
-                    <img src="img/tool-logos/github.png" class="techlogo" width="150">
-                    <img src="img/tool-logos/brackets.png" class="techlogo" width="150">
-                    <img src="img/tool-logos/Netb.png" class="techlogo" width="150">
-                    <img src="img/tool-logos/intellij-idea-community.png" class="techlogo" width="150">
-
-                </div>
-            </div>
-
-            <div class="row row-footer text-center">
-                <div class="col">
-                    <div style="margin:50px;">
-                        <h3 style="margin:50px 0 15px">I'm available for work, get in touch</h3>
-                        <a href="mailto:hridoy.jurain@yahoo.com">
-                            hridoy.jurain@yahoo.com
-                        </a>
-                        <br>
-                        <br>
-                        <a href="https://www.linkedin.com/in/shohidulislamhridoy/" target="_blank">LinkedIn Profile</a> 
-<!--                         |
-                        <a href="files/shohidul_islam_2pg.pdf" target="_blank"> My Resume</a> -->
-                    </div>
-                </div>
-            </div>
-
-
-
-
-        </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="detailsViewModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close close-btn" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <!--<h4 class="modal-title" id="myModalLabel">Modal title</h4>-->
-                    </div>
-                    <div class="modal-body">
-                        <div class="text-center">
-                            <h1 id="app-title">IO Chat</h1>
-                        </div>
-                        <!--=============================================================================================-->
-                        <div class="modal-body-content">
-
-                        </div>
-                        <!--=============================================================================================-->
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-
-
+            <div id="contents"></div>
 
         <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
         <script src="js/jquery-3.1.0.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/myScripts.js"></script>
+        <script src="js/modal_contents.js"></script>
+        <script src="js/script.js"></script>
 
     </body>
 </html>

@@ -131,7 +131,7 @@ $(window).on('resize', function(){
       $(".modal-body-content").height($("#detailsViewModal").height()-120);
 });
 
-$(".details-btn").on("click", function(){
+$("#contents").on("click", ".details-btn", function(){
     var appTitle = $(this).closest(".parent-div").find(".app-title").text();   
     $("#detailsViewModal").find("#app-title").text(appTitle);
     
