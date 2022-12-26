@@ -1,4 +1,5 @@
 loadPage("about");
+// loadPage("portfolio");
 
 $("#about").click(function() {
     loadPage("about");
@@ -31,6 +32,7 @@ function loadPage(page) {
 function parseMarkdown() {
     var target = $("body").find(".marked");
     target.each(function (index) {
+        console.log($(this).text());
         var html = marked.parse($(this).text())
         $(this).html(html);
     });
