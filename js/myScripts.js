@@ -1,4 +1,29 @@
 var contentArray = [];
+var moneyIO = [
+                {image: "img/projects/mm/landing.png", text: "Landing Page - Overview of Money IO application."},
+                {image: "img/projects/mm/home.png", text: "Home Dashboard - Main overview with transaction summary and quick stats."},
+                {image: "img/projects/mm/ipad-dashboard.png", text: "iPad Dashboard - Responsive design optimized for tablet devices."},
+                {image: "img/projects/mm/mobile-dashboard.png", darkImage: "img/projects/mm/mobile-dashboard-dark.png", text: "Mobile Dashboard - Clean and intuitive mobile interface with light and dark mode support."},
+                {image: "img/projects/mm/mobile-transactions.png", darkImage: "img/projects/mm/mobile-transactions-dark.png", text: "Transaction List - View and manage all your income and expense transactions in both themes."},
+                {image: "img/projects/mm/mobile-add-trans.png", darkImage: "img/projects/mm/mobile-add-trans-dark.png", text: "Add Transaction - Quick transaction entry with category selection, available in light and dark modes."},
+                {image: "img/projects/mm/mobile-analytics.png", darkImage: "img/projects/mm/mobile-analytics-dark.png", text: "Analytics Dashboard - Visual charts and insights to understand spending patterns, with theme support."},
+                {image: "img/projects/mm/mobile-accounts.png", darkImage: "img/projects/mm/mobile-accounts-dark.png", text: "Account Management - Manage multiple accounts (Cash, Bank, Card, etc.) with balance tracking in both themes."}
+            ]
+var owm = [
+                {image: "img/projects/owm/1.jpg", text: "Dark mode Map view with issue preview."},
+                {image: "img/projects/owm/2.jpg", text: "White mode map view with issue markers."},
+                {image: "img/projects/owm/3.jpg", text: "3D view of buildings in NY in map view."},
+                {image: "img/projects/owm/4.jpg", text: "Distance from hero location to an issue location in map."},
+                {image: "img/projects/owm/5.jpg", text: "Issue detail page."},
+                {image: "img/projects/owm/6.jpg", text: "Find Heroes Nearby page to search for heroes."},
+                {image: "img/projects/owm/7.jpg", text: "Hero dashboard with rating, progress bar, and other metrics."},
+                {image: "img/projects/owm/8.jpg", text: "Achievements page."},
+                {image: "img/projects/owm/9.jpg", text: "Hero leaderboard."},
+                {image: "img/projects/owm/10.jpg", text: "Chat page."},
+                {image: "img/projects/owm/11.jpg", text: "Organisation page e.g. ABC Hospital."},
+                {image: "img/projects/owm/12.jpg", text: "Mobile UI for Map view."},
+                {image: "img/projects/owm/13.jpg", text: "Feed UI for mobile view."}
+            ]
 var bbq = [
                 {image: "img/projects/bbq/home.png", text: "Home Page"},
                 {image: "img/projects/bbq/outlets.png", text: "All outlets or Tenants"},
@@ -135,7 +160,11 @@ $(".details-btn").on("click", function(){
     var appTitle = $(this).closest(".parent-div").find(".app-title").text();   
     $("#detailsViewModal").find("#app-title").text(appTitle);
     
-    if(appTitle == "BBQ"){
+    if(appTitle == "Money IO"){
+        contentArray = moneyIO; 
+    }else if(appTitle == "Open World Map"){
+        contentArray = owm; 
+    }else if(appTitle == "BBQ"){
         contentArray = bbq; 
     }else if(appTitle == "IO Chat"){
         contentArray = ioChat; 
@@ -162,12 +191,28 @@ $(".details-btn").on("click", function(){
     if(contentArray.length){
         var content;
         for(var i = 0; i < contentArray.length; i++){
+            var imageHtml = '';
+            if(contentArray[i].darkImage){
+                // Show light and dark mode side by side
+                imageHtml = '<div class="col-lg-6" style="padding: 5px;">'
+                          +    '<img style="box-shadow: 2px 2px 5px rgba(0,0,0,0.2); width: 100%;" src="'+contentArray[i].image+'" class="img-responsive center-block modal-content-img">'
+                          +    '<p class="text-center" style="margin-top: 5px; font-size: 12px; color: #666;">Light Mode</p>'
+                          + '</div>'
+                          + '<div class="col-lg-6" style="padding: 5px;">'
+                          +    '<img style="box-shadow: 2px 2px 5px rgba(0,0,0,0.2); width: 100%;" src="'+contentArray[i].darkImage+'" class="img-responsive center-block modal-content-img">'
+                          +    '<p class="text-center" style="margin-top: 5px; font-size: 12px; color: #666;">Dark Mode</p>'
+                          + '</div>';
+            } else {
+                // Single image
+                imageHtml = '<div class="col-lg-12">'
+                          +    '<img style="box-shadow: 2px 2px 5px rgba(0,0,0,0.2);" src="'+contentArray[i].image+'" class="img-responsive center-block modal-content-img">'
+                          + '</div>';
+            }
+            
             content= '<div class="row">'
                     +    '<div class="col-sm-8 col-sm-offset-2">'
                     +        '<div class="row work-item-row">'
-                    +            '<div class="col-lg-12">'
-                    +                '<img style="box-shadow: 2px 2px 5px rgba(0,0,0,0.2);" src="'+contentArray[i].image+'" class="img-responsive center-block modal-content-img">'
-                    +            '</div>'
+                    +            imageHtml
                     +        '</div>'
                     +        '<div class="row text-center" style="margin: 15px 10px 50px 10px">'
                     +            '<div class="col-xs-12">'

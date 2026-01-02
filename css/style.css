@@ -132,6 +132,12 @@ nav {
     overflow-y: auto;
     padding-top: 5px;
 }
+.modal-content-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 70vh;
+    object-fit: contain;
+}
 .modal{
     padding: 0 !important;
     height: 100%;
@@ -178,4 +184,7 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
+}
+.techlogo {
+    margin: 10px;
 }
