@@ -145,17 +145,39 @@ nav {
 }
 .modal-header {
     border-bottom: none;
+    padding: 15px 20px !important;
+    position: relative;
+    z-index: 1;
 }
 .modal-backdrop {
    background-color: white;
    opacity: 1 !important;
 }
 .close-btn{
-    background-color: gray !important;
-    width: 25px;
-    height: 25px;
+    background-color: #fff !important;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    color: black !important;
+    color: #333 !important;
+    opacity: 1 !important;
+    font-size: 24px !important;
+    line-height: 1 !important;
+    padding-bottom: 4px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: all 0.3s ease !important;
+    z-index: 1051 !important;
+    position: relative !important;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    background-color: #f44336 !important;
+    color: #fff !important;
+    border-color: #f44336 !important;
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(244, 67, 54, 0.3) !important;
 }
 
 #app-title {
